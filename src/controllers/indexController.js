@@ -4,6 +4,10 @@ module.exports ={
 
     },
     calculadora : (req,res) => {
-        return res.render ('calculadora/calculadora')
+        return res.render ('calculadora/calculadora', ({title : 'calculadora'}))
+    },
+
+    clima : (req,res) => {
+        return res.render ('clima/clima', ({title : 'clima'}))
     }
 }
