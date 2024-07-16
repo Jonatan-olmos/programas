@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('../partials/head.ejs',{title : "clima"}) %>
+<body class="body-clima">
+   <div class="container-clima">
+    <div class="search-box">
+        <i class='bx bxs-map'></i>
+        <input type="text" placeholder="Ingresa tu ciudad " id="city" value="" >
+        <button class="bx bx-search" id="btn-clima"></button>
+
+    </div>
+                    <div id="resultado" ></div>
+
+
+
+   </div> 
+
+
+
+    <script src="./javascripts/aplicaciones/clima.js"></script>
+</body>
+</html>
