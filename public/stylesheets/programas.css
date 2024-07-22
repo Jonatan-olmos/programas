@@ -1,0 +1,19 @@
+
+
+.programas_h1{
+    
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+.programas_section{
+    padding: 20px
+}
+.programas_img{
+  padding: 5px;
+    border-radius: 15px;
+    width: 30vh;
+    height:40vh;
+   
+}
+

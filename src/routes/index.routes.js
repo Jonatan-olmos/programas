@@ -1,5 +1,5 @@
 var express = require('express');
-const { index, calculadora, clima, reloj, chatgpt } = require('../controllers/indexController');
+const { index, calculadora, clima, reloj, chatgpt, piano } = require('../controllers/indexController');
 var router = express.Router();
 
 /* GET home page. */
@@ -9,6 +9,8 @@ router
 .get('/clima',clima)
 .get('/reloj',reloj)
 .get('/chatgpt',chatgpt)
+.get('/piano',piano)
+
 
 
 

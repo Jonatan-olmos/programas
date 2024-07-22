@@ -1,9 +1,14 @@
-@import './index.css';
-@import './calculadora.css';
 @import './general.css';
-@import './clima.css';
-@import './reloj.css';
-@import './chatgpt.css';
+@import './index.css';
+@import './programas.css';
+@import './aplicaciones/calculadora.css';
+@import './aplicaciones/chatgpt.css';
+@import './aplicaciones/clima.css';
+@import './aplicaciones/piano.css';
+@import './aplicaciones/reloj.css';
+
+
+
 
 
 

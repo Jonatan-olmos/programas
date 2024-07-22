@@ -15,5 +15,8 @@ module.exports ={
     },
     chatgpt : (req,res) => {
         return res.render ('aplicaciones/chatgpt', ({title : 'chatgpt'}))
+    }, 
+    piano : (req,res) => {
+        return res.render ('aplicaciones/piano', ({title : 'piano'}))
     }
 }
