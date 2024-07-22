@@ -18,5 +18,9 @@ module.exports ={
     }, 
     piano : (req,res) => {
         return res.render ('aplicaciones/piano', ({title : 'piano'}))
+    },
+    conversorMonedas : (req,res) => {
+        return res.render ('aplicaciones/conversorMonedas', ({title : 'conversorMonedas'}))
     }
+    
 }

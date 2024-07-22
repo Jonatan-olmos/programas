@@ -5,13 +5,13 @@ keysCheckbox = document.querySelector(".keys-checkbox input");
 
 
 let allKeys = [],
-audio = new Audio("tunes/a.wav");           //BY DEFAULT AUDIO SRC IS A TONE
+audio = new Audio("audio/piano/tunes/a.wav");           //BY DEFAULT AUDIO SRC IS A TONE
 
 
 
 
 const playTune = (key) => {
-    audio.src = `tunes/${key}.wav`;         // PADDING AUDIO SRC BASED ON PASSED KEY
+    audio.src = `audio/piano/tunes/${key}.wav`;         // PADDING AUDIO SRC BASED ON PASSED KEY
     audio.play();
 
     const clickedKey = document.querySelector(`[data-key="${key}"]`);
