@@ -1,10 +1,25 @@
 
+.programas_body{
+   
+   background-color: rgb(100, 27, 168, 0.6);
+}
+.programas_p{
+    text-align: center;
+    color: aliceblue;
+}
+.programas_section{
+    text-align: center;
+ 
 
+   
+    }
 .programas_h1{
     
     text-align: center;
     padding-top: 40px;
     font-size: 40px;
+    color: aliceblue;
+    text-transform: uppercase;
 }
 .programas_section{
     padding: 20px

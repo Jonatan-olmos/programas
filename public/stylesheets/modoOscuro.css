@@ -1,0 +1,23 @@
+
+.programas_body{
+    transition: all 1.5s ease;
+}
+#toggle{
+    display: none;
+}
+#label_toggle{
+  position: relative;
+  display: flex;
+  justify-content: right;
+    right: 30PX;
+    top: 30PX;
+    font-size: 2em;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.dark{
+    background-color: #333;
+    color: whithe;
+    transition: all 1.5s ease;
+
+}

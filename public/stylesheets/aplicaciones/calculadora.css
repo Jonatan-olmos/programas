@@ -80,3 +80,39 @@ grid-column: span 2;
     background-color: #f5a34d;
     border-color: #ce812a;
     }
+
+    @media screen and (max-width: 615px) {
+        #calculator{
+            
+            max-width: 250px;
+            margin: 30px auto;
+        padding: 15px 15px 0 15px;
+        
+        }
+        #calculator::before{
+           
+            margin-left: 300px;
+            margin-left: 130px;
+       
+        }
+        #calculator > .operands{
+            width: 95%;
+            font-size: 40px;
+            padding: 8px;
+           
+            margin-bottom: 15px;
+         
+        }
+        #calculator > #bt-grid > button {           
+            font-size: 18px;
+            }
+            #calculator::after{
+            
+                margin-left: -14px;
+                
+            }
+            #calculator > .operands > [data-operand-1]{
+
+                font-size: 15px ;
+                }
+    }

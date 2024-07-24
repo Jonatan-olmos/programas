@@ -152,3 +152,51 @@
     background: white;
     box-shadow: none;
 }
+@media screen and (max-width: 615px) {
+    .wrapper {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        
+       
+    }
+    .hands-box .hours{
+        width: 70px;
+        height: 100px;
+        
+    
+    }
+    .hands-box .hours i {
+       
+        height: 40px;
+       
+    }
+    .hands-box .minutes{
+        width: 120px;
+        height: 150px;
+        
+    }
+    .hands-box .minutes i {
+      
+        height: 70px;
+       
+    
+    }
+    .hands-box .seconds{
+        width: 95px;
+        height: 70px;
+    
+    
+    }
+    
+    .hands-box .seconds i {
+        
+        height: calc(90px + 70px);
+       
+    }
+    .number-hours span p {
+        font-size: 25px;
+       
+    }
+    
+}

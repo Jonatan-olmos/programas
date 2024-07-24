@@ -131,3 +131,77 @@ justify-content: flex-end;
     font-size: 14px;
     font-weight: 500;
 }
+@media screen and (max-width: 615px) {
+
+
+    .container-clima{
+        position: relative;
+        width: 250px;
+        height: 340px;
+     
+        border-radius: 8px;
+     
+        padding: 10px;
+        color: #fff;
+    }
+    .weather-box{
+        text-align: center;
+        margin: 20px 0 ;
+    }
+    .weather-box img {
+        width: 40%;
+    }
+    
+    .weather-box .temperature {
+    
+        font-size: 30px;
+     
+        margin: 10px 0 6px -15px
+    }
+    .weather-box .temperature span{
+      
+        font-size: 15px;
+        margin-left: 4px;
+    }
+    .weather-box .description {
+    font-size: 15px;
+  
+    }
+    .weather-details{
+        
+        bottom:20px;
+        left: 20px;
+     padding: 0 10px;
+   
+    }
+    .weather-details .humidity,
+    .weather-details .wind {
+      
+        width: 40%;
+    }
+   
+    .weather-details .wind {
+    padding-right: 10px;
+  
+    }
+    
+    .weather-details i {
+        font-size: 15px;
+
+    }
+    .weather-details span {
+
+        font-size: 10px;
+       
+    }
+    
+    .weather-details p {
+        font-size: 8px;
+     
+    }
+    .search-box input {
+        
+        font-size: 15px;
+      
+    }
+}
