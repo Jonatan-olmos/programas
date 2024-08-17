@@ -3,6 +3,10 @@ module.exports ={
         return res.render('index', ({title : 'programas'}) )
 
     },
+    xp:(req, res) => {
+        return res.render('xp', ({title : 'xp'}) )
+
+    },
     calculadora : (req,res) => {
         return res.render ('aplicaciones/calculadora', ({title : 'calculadora'}))
     },

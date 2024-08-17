@@ -1,0 +1,103 @@
+.body_xp {
+    background-image: url("../../images/xp/windows_xp.jpg");
+   height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+    background-color: #008080; /* Color de fondo similar a Windows XP */
+    font-family: 'Arial', sans-serif;
+}
+
+.taskbar {
+  
+    background-color:  #1723bc ; /* Color de la barra de tareas */
+    height: 25px;
+    display: flex;
+    align-items: center;
+   
+    position: fixed; /* Fijar la posición */
+    bottom: 0; /* Colocar en la parte inferior */
+    left: 0; /* Alinear a la izquierda */
+    right: 0; /* Alinear a la derecha */
+}
+
+.section{
+    background-color: rgb(0, 143, 1) ; /* Color del botón de inicio */
+    height: 26px;
+    display: flex;
+    align-items: center;   
+    position: fixed; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.start-button {
+    color: white;
+ padding-left: 5px;
+ padding-right: 15px;
+    
+
+}
+
+.taskbar-items {
+    margin-left: auto;
+}
+
+.task-item {
+    margin-left: 15px;
+    color: black;
+}
+
+
+.button {
+    /* Color de los botones */
+    border: none;
+
+}
+
+.logo_1{
+    padding-left: 5px;
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.logo {
+    
+    display: flex;    
+    flex-direction:row; /* Colocar los paneles en columnas */
+}
+
+.panel {
+    
+
+    border-bottom: 3px solid rgb(0, 143, 1);
+
+width: 45%;
+
+transform: rotate(-30deg);
+
+transform-origin: left;
+    width: 15px; /* Ancho de cada panel */
+    height: 10px; /* Alto de cada panel */
+}
+
+.panel-blue {
+   
+
+    background-color: #00A4EF; /* Azul */
+}
+
+.panel-green {
+    background-color: #7CBA00; /* Verde */
+}
+
+.panel-red {
+    background-color: #F25022; /* Rojo */
+}
+
+.panel-yellow {
+    background-color: #FFB900; /* Amarillo */
+}

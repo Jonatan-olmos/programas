@@ -2,6 +2,8 @@
 @import './index.css';
 @import './programas.css';
 @import './modoOscuro.css';
+@import './xp/xp.css';
+
 
 @import './aplicaciones/calculadora.css';
 @import './aplicaciones/chatgpt.css';
