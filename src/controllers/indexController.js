@@ -6,6 +6,9 @@ module.exports ={
     xp:(req, res) => {
         return res.render('xp', ({title : 'xp'}) )
 
+    },  pruebas:(req, res) => {
+        return res.render('pruebas', ({title : 'pruebas'}) )
+
     },
     calculadora : (req,res) => {
         return res.render ('aplicaciones/calculadora', ({title : 'calculadora'}))
